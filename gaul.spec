@@ -1,7 +1,3 @@
-#
-# TODO:
-#       - Przet³umaczyæ %description
-
 Summary:	Genetic Algorithm Utility Library
 Summary(pl):	Biblioteka narzêdziowa algorytmów genetycznych
 Name:		gaul
@@ -9,25 +5,34 @@ Version:	0.1846
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/sourceforge/gaul/%{name}-devel-%{version}-0.tar.gz
+Source0:	http://dl.sourceforge.net/gaul/%{name}-devel-%{version}-0.tar.gz
 # Source0-md5:  1cce2bf4546ee4739f85076ab26ca983
-URL:		http://gaul.sourceforge.net
+URL:		http://gaul.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The Genetic Algorithm Utility Library (GAUL) is an open source
 programming library providing genetic algorithms. Both stead y-state
 and generation based evolution is supported, together with the island
-model. GAUL supports the Darwinian, Lamarckia n and Baldwininan
+model. GAUL supports the Darwinian, Lamarckian and Baldwinian
 evolutionary schemes. Standard mutation, crossover and selection
 operators are provided, while code hooks additionally allow custom
 operators. Several non-evolutionary search heuristics are provided for
-comparison and local sear ch purposes, including simplex method, hill
-climbing, simulated annealling and steepest ascent. Much of the
-functionality i s also available through a simple S-Lang interface.
+comparison and local search purposes, including simplex method, hill
+climbing, simulated annealing and steepest ascent. Much of the
+functionality is also available through a simple S-Lang interface.
 
 %description -l pl
-GAUL jest otwart± bibliotek± algorytmów genetycznych.
+GAUL jest otwart± bibliotek± algorytmów genetycznych. Obs³ugiwana jest
+ewolucja miejscowa w stanie y, jak i oparta na pokoleniach, wraz z
+modelem wyspowym. GAUL obs³uguje schematy ewolucji darwinowski,
+lamarckowski oraz baldwinowski. Dostarczone s± standardowe operatory
+mutacji, krzy¿owania i selekcji, a tak¿e miejsca zaczepienia do
+dodania w³asnych operatorów. Dodanych est kilka nieewolucyjnych
+heurystyk wyszukiwania w celu porównania oraz poszukiwania lokalnego,
+w³±cznie z metod± sympleks, znajdowaniem maksimum, symulowanym
+rozprê¿aniem oraz najszybszego wzrostu. Wiêkszo¶æ funkcjonalno¶ci jest
+dostêpna tak¿e przez prosty interfejs oparty na S-Langu.
 
 %package devel
 Summary:	Header files for GAUL library
