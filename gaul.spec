@@ -2,7 +2,7 @@ Summary:	Genetic Algorithm Utility Library
 Summary(pl):	Biblioteka narzêdziowa algorytmów genetycznych
 Name:		gaul
 Version:	0.1847
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/gaul/%{name}-devel-%{version}-0.tar.gz
