@@ -62,6 +62,7 @@ Statyczna biblioteka GAUL.
 %setup -q -n %{name}-devel-%{version}-0
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure \
 	--enable-g=no		\
 	--enable-debug=no	\
