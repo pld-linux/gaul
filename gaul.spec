@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://dl.sourceforge.net/gaul/%{name}-devel-%{version}-0.tar.gz
 # Source0-md5:	95e6e943801fa6cad6fe65d715c5f6ac
 URL:		http://gaul.sourceforge.net/
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
