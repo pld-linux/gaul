@@ -1,5 +1,5 @@
 Summary:	Genetic Algorithm Utility Library
-Summary(pl):	Biblioteka narzêdziowa algorytmów genetycznych
+Summary(pl.UTF-8):   Biblioteka narzÄ™dziowa algorytmÃ³w genetycznych
 Name:		gaul
 Version:	0.1849
 Release:	1
@@ -23,40 +23,40 @@ comparison and local search purposes, including simplex method, hill
 climbing, simulated annealing and steepest ascent. Much of the
 functionality is also available through a simple S-Lang interface.
 
-%description -l pl
-GAUL jest otwart± bibliotek± algorytmów genetycznych. Obs³ugiwana jest
+%description -l pl.UTF-8
+GAUL jest otwartÄ… bibliotekÄ… algorytmÃ³w genetycznych. ObsÅ‚ugiwana jest
 ewolucja miejscowa w stanie y, jak i oparta na pokoleniach, wraz z
-modelem wyspowym. GAUL obs³uguje schematy ewolucji darwinowski,
-lamarckowski oraz baldwinowski. Dostarczone s± standardowe operatory
-mutacji, krzy¿owania i selekcji, a tak¿e miejsca zaczepienia do
-dodania w³asnych operatorów. Dodanych est kilka nieewolucyjnych
-heurystyk wyszukiwania w celu porównania oraz poszukiwania lokalnego,
-w³±cznie z metod± sympleks, znajdowaniem maksimum, symulowanym
-rozprê¿aniem oraz najszybszego wzrostu. Wiêkszo¶æ funkcjonalno¶ci jest
-dostêpna tak¿e przez prosty interfejs oparty na S-Langu.
+modelem wyspowym. GAUL obsÅ‚uguje schematy ewolucji darwinowski,
+lamarckowski oraz baldwinowski. Dostarczone sÄ… standardowe operatory
+mutacji, krzyÅ¼owania i selekcji, a takÅ¼e miejsca zaczepienia do
+dodania wÅ‚asnych operatorÃ³w. Dodanych est kilka nieewolucyjnych
+heurystyk wyszukiwania w celu porÃ³wnania oraz poszukiwania lokalnego,
+wÅ‚Ä…cznie z metodÄ… sympleks, znajdowaniem maksimum, symulowanym
+rozprÄ™Å¼aniem oraz najszybszego wzrostu. WiÄ™kszoÅ›Ä‡ funkcjonalnoÅ›ci jest
+dostÄ™pna takÅ¼e przez prosty interfejs oparty na S-Langu.
 
 %package devel
 Summary:	Header files for GAUL library
-Summary(pl):	Pliki nag³ówkowe biblioteki GAUL
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki GAUL
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for GAUL library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki GAUL.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki GAUL.
 
 %package static
 Summary:	Static GAUL library
-Summary(pl):	Statyczna biblioteka GAUL
+Summary(pl.UTF-8):   Statyczna biblioteka GAUL
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static GAUL library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka GAUL.
 
 %prep
