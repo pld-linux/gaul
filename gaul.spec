@@ -1,5 +1,5 @@
 Summary:	Genetic Algorithm Utility Library
-Summary(pl.UTF-8):   Biblioteka narzędziowa algorytmów genetycznych
+Summary(pl.UTF-8):	Biblioteka narzędziowa algorytmów genetycznych
 Name:		gaul
 Version:	0.1849
 Release:	1
@@ -37,7 +37,7 @@ dostępna także przez prosty interfejs oparty na S-Langu.
 
 %package devel
 Summary:	Header files for GAUL library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki GAUL
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki GAUL
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -49,7 +49,7 @@ Pliki nagłówkowe biblioteki GAUL.
 
 %package static
 Summary:	Static GAUL library
-Summary(pl.UTF-8):   Statyczna biblioteka GAUL
+Summary(pl.UTF-8):	Statyczna biblioteka GAUL
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
